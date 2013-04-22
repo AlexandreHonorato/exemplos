@@ -12,6 +12,6 @@ Design Patterns
 Exemplos de padrões de projetos.
 <ul>
 	<li>DAO</li>
-	Implementado em uma forma dinâmica, utilizando Hibernate, e banco de dados SQLite3.
+	Implementado em uma forma dinâmica, utilizando o framework Hibernate, e banco de dados SQLite3.
 	<li></li>
 </ul> 
