@@ -12,6 +12,7 @@ public class CreateSchema {
 		
 		SchemaUpdate schema = new SchemaUpdate(cfg);
 		schema.execute(true, true);
+
 	}
 
 }

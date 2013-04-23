@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="pessoas")
@@ -20,6 +22,7 @@ public class Pessoa {
 	private String nome;
 	
 	@Column(name="datanascimento")
+	@Temporal(TemporalType.DATE)
 	private Date dataNascimento;
 	
 	@Column(name="cota")

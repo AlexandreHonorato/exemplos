@@ -8,11 +8,7 @@
 <title>Pessoa</title>
 </head>
 <body>
-<s:form action="pessoa!save">
-	<s:textfield label="Nome" name="pessoa.nome" />
-	<s:textfield label="Data Nascimento" name="pessoa.dataNascimento"/>
-	<s:textfield label="Cota" name="pessoa.cota"/> 
-	<s:submit />
-</s:form>
+	
+	<a href="<s:url action="pessoa"/>">Cadastro de Pessoas</a>
 </body>
 </html>

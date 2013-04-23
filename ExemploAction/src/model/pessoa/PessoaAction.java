@@ -6,9 +6,9 @@ import org.apache.struts2.config.Results;
 import util.HibernateUtil;
 
 @Results({
-	@Result(name = "success", value = "main.jsp"),
+	@Result(name = "success", value = "editPessoa.jsp"),
 	@Result(name = "showSave", value = "showPessoa.jsp"),
-	@Result(name = "showDelete", value = "main.jsp"),
+	@Result(name = "showDelete", value = "showPessoa.jsp"),
 	@Result(name = "showUpdate", value = "showPessoa.jsp"),
 	@Result(name = "showPessoa", value = "showPessoa.jsp")
 })
