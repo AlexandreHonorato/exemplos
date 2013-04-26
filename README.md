@@ -11,7 +11,7 @@ Atráves da implementação de uma calculadora financeira de Juros compostos. Exemp
 ExemploAction
 -------------
 Através de uma cadastro simples de pessoas, a implementação e o uso de DAO, a utilização do Framework Struts2 com anotações.
-<i>Banco de Dados</i> SQLite3, Alterar o caminho no arquivo <i>hibernate.cfg.xml</>. 
+<b>Banco de Dados</b> MySQL, existe uma classe <i>sample/CreateSchema.java</i>, que cria o schema do banco de dados. 
 
 Design Patterns
 ---------------
@@ -24,7 +24,7 @@ Exemplos de padrões de projetos.
 
 Contato
 =======
-Wagner de Barros Fonseca
-email: wagner.fonseca@gmail.com
-Skype: wagner.fonseca
-Celular: (16) 9969-0857
+Wagner de Barros Fonseca </br>
+email: wagner.fonseca@gmail.com </br>
+Skype: wagner.fonseca </br>
+Celular: (16) 9969-0857 </br>

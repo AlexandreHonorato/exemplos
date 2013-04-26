@@ -1,9 +1,10 @@
-package model.pessoa;
+package action;
+
+import model.pessoa.Pessoa;
+import model.pessoa.PessoaService;
 
 import org.apache.struts2.config.Result;
 import org.apache.struts2.config.Results;
-
-import util.HibernateUtil;
 
 @Results({
 	@Result(name = "success", value = "editPessoa.jsp"),
@@ -19,10 +20,6 @@ public class PessoaAction {
 	private Pessoa pessoa;
 	
 	private Long id;
-	
-	static {
-		HibernateUtil.session = HibernateUtil.getSessionFactory().openSession();
-	}
 	
 	public String execute() {
 		return "success";

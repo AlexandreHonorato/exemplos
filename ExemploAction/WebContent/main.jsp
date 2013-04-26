@@ -8,7 +8,7 @@
 <title>Pessoa</title>
 </head>
 <body>
-	
 	<a href="<s:url action="pessoa"/>">Cadastro de Pessoas</a>
+	<a href="<s:url action="endereco"/>">Cadastro de Endereço</a>
 </body>
 </html>
