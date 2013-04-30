@@ -6,19 +6,20 @@ Repositório de dados, para exemplificação de diversas ferramentas (Frameworks), 
 
 Struts2Anotacoes
 ----------------
-Atráves da implementação de uma calculadora financeira de Juros compostos. Exemplos de como utilizar struts 2 com anotações, sem a utilização do arquivo <i>struts.xml</i>
+Atráves da implementação de uma calculadora financeira de Juros compostos. Exemplos de como utilizar struts 2 com anotações, sem a utilização do arquivo <i font="Courier New">struts.xml</i>
 
 ExemploAction
 -------------
 Através de uma cadastro simples de pessoas, a implementação e o uso de DAO, a utilização do Framework Struts2 com anotações.
-<b>Banco de Dados</b> MySQL, existe uma classe <i>sample/CreateSchema.java</i>, que cria o schema do banco de dados. 
+<b>Banco de Dados</b> MySQL, existe uma classe <i>sample/CreateSchema.java</i>, que cria o schema do banco de dados.<br>
+Utilizando o <i>Hibernate Envers</i> para realizar as auditorias de dados. 
 
 Design Patterns
 ---------------
 Exemplos de padrões de projetos.
 <ul>
 	<li>DAO</li>
-	Implementado em uma forma dinâmica, utilizando o framework Hibernate, e banco de dados SQLite3.
+	Implementado em uma forma dinâmica, utilizando o framework Hibernate 3.6.0.Final, e banco de dados SQLite3.
 	<li></li>
 </ul> 
 

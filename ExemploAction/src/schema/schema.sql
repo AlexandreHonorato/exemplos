@@ -29,11 +29,11 @@ CREATE TABLE `enderecos` (
   `bairro` varchar(255) DEFAULT NULL,
   `cidade` varchar(255) DEFAULT NULL,
   `estado` varchar(255) DEFAULT NULL,
-  `logradrouro` varchar(255) DEFAULT NULL,
+  `logradouro` varchar(255) DEFAULT NULL,
   `numero` varchar(255) DEFAULT NULL,
   `rua` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -49,7 +49,39 @@ CREATE TABLE `pessoas` (
   `datanascimento` date DEFAULT NULL,
   `nome` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `pessoas_aud`
+--
+
+DROP TABLE IF EXISTS `pessoas_aud`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pessoas_aud` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `cota` double DEFAULT NULL,
+  `datanascimento` date DEFAULT NULL,
+  `nome` varchar(255) DEFAULT NULL,
+  `revtype` tinyint(4) DEFAULT NULL,
+  `rev` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`,`rev`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `revinfo`
+--
+
+DROP TABLE IF EXISTS `revinfo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `revinfo` (
+  `REV` bigint(20) NOT NULL AUTO_INCREMENT,
+  `REVTSTMP` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`REV`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -61,4 +93,4 @@ CREATE TABLE `pessoas` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-04-26 10:02:59
+-- Dump completed on 2013-04-29 10:07:36

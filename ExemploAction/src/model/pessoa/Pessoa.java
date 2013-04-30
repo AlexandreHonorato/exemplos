@@ -11,8 +11,11 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import org.hibernate.envers.Audited;
+
 @Entity
 @Table(name="pessoas")
+@Audited
 public class Pessoa {
 	
 	@Id@GeneratedValue(strategy=GenerationType.IDENTITY)
