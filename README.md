@@ -19,18 +19,21 @@ Design Patterns
 Exemplos de padrões de projetos.
 <ul>
 	<li>DAO</li>
-	Implementado em uma forma dinâmica, utilizando o framework Hibernate 3.6.0.Final, e banco de dados SQLite3.
-	<li></li>
+	Implementado em uma forma dinâmica, utilizando o framework Hibernate 3.6.0.Final, e banco de dados SQLite3.	
 </ul> 
 
 Java Web Services
 -----------------
-Criando um servico web em Java. Como implementar um serviço de um CRUD baseado em SOAP.
+<ul>
+	<li>SOAP</li>
+	Um Web Service em Java. Para o exemplo do CRUD foi utilizado o framework Hibernate 3.6.0.Final, e banco de dados SQLite3. 
+	Os artefatos e client do serviço foram feitos utilizando os utilitários nativos `wsgen` e `wsimport` da biblioteca JAX-WS.
+</ul> 
 
 Contato
-=======
-<p>
-Wagner de Barros Fonseca </br>
-email: wagner.fonseca@gmail.com </br>
-Skype: wagner.fonseca </br>
-</p>
+-------
+
+	Wagner de Barros Fonseca
+	email: wagner.fonseca@gmail.com
+	Skype: wagner.fonseca
+
