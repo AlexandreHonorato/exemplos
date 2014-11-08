@@ -23,9 +23,14 @@ Exemplos de padrões de projetos.
 	<li></li>
 </ul> 
 
+Java Web Services
+-----------------
+Criando um servico web em Java. Como implementar um serviço de um CRUD baseado em SOAP.
+
 Contato
 =======
+<p>
 Wagner de Barros Fonseca </br>
 email: wagner.fonseca@gmail.com </br>
 Skype: wagner.fonseca </br>
-Celular: (16) 9969-0857 </br>
+</p>
