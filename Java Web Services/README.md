@@ -1,14 +1,14 @@
 #Java Web Services#
-===================
+
 Criando um servico web em Java. Como implementar um serviço de um CRUD baseado em SOAP.
 
 ##Criando um banco de dados##
------------------------------
+
 Executando a classe `CreateSchemaSample.java` o schema do banco deve ser criado.
 
-    ```
+    
     % java br.com.ws.config.CreateSchemaSample
-    ```
+    
 	
 Executando a classe `SampleDAO.java` para inserir dados na tabela `person`.	
 
